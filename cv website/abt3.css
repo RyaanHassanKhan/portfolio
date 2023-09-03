@@ -1,0 +1,39 @@
+*{
+  margin:0 ;
+  padding:0 ;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+
+body{
+  background: rgba(45, 45, 202, 0.795);
+color: #2db7eede ;
+}
+.home{
+  height: 100vh;
+  display:flex ;
+  align-items:normal;
+  padding: 0 20%;
+  margin-left: 300px;
+  margin-top: 280px;
+}
+.home-content{
+   
+  max-width: 600px;
+  transform: 2s;
+}
+.home-content h1:hover{
+  -webkit-text-stroke: 4px #ffffff;
+  color:#fffff ;
+  font-size: 66px;
+  font-weight: 800;
+  line-height: 2.2;
+
+  opacity: 90%;
+  
+}
+.home-content h3{
+  font-size: 50;
+  font-weight: 750 ;
+  color:rgb(255, 255, 255);
+}
